@@ -95,6 +95,7 @@ module.exports = {
         'docker:push:alpine:latest',
     ]),
     
+    /*
     'docker:arm32': () => run([
         'docker:pull:arm32',
         'docker:build:arm32',
@@ -110,6 +111,7 @@ module.exports = {
         'docker:push:arm64',
         'docker:push:arm64:latest',
     ]),
+    */
     
     'docker:manifest': () => run([
         'docker:manifest:create',
